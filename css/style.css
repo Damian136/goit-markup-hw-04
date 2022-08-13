@@ -241,6 +241,16 @@ body {
   justify-content: space-around;
   gap: 30px;
 }
+.descripion-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.description-text {
+  font-size: 14px;
+  line-height: 1.71;
+  padding-top: 10px;
+}
 .selection-image {
   display: flex;
   list-style: none;
@@ -299,16 +309,20 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.photo-description {
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+}
 .product-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
   padding: 20px 24px 4px 24px;
 }
 .product-description {
   font-size: 16px;
   color: var(--contacts-header-color);
-  padding-top: 4px;
+  padding: 4px 24px 4px 24px;
 }
 .product-center {
   display: flex;
