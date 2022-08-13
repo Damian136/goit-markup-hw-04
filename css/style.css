@@ -180,19 +180,21 @@ body {
 }
 .footer-navigation {
   background-color: var(--background-color);
+  color: #ffffff;
+  font-size: 14px;
 }
 .contact {
   font-size: 14px;
   list-style: none;
 }
 .contact a {
-  display: inline-block;
   font-size: 14px;
   line-height: 1.71;
   color: var(--contacts-header-color);
-  width: 231px;
-  margin-top: 9px;
+  display: inline-block;
   display: block;
+  margin-top: 9px;
+  width: 231px;
 }
 .footer-navigation address {
   color: #ffffff;
