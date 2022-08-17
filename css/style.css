@@ -474,3 +474,8 @@ body {
   display: flex;
   align-items: baseline;
 }
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 94px;
+}
