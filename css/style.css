@@ -90,7 +90,9 @@ body {
 .main-header {
   display: block;
   margin: auto;
-  background-image: linear-gradient(to right, #2f303a66 40%, #2f303a66 40%);
+  background-image: linear-gradient(to right, #2f303a66 40%, #2f303a66 40%),
+    url(../Images/Zdjecia/Img.jpg);
+  background-size: cover;
 }
 .main-text-content {
   display: block;
