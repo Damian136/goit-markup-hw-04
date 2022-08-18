@@ -143,13 +143,13 @@ body {
 }
 .lorem-ipsum-page {
   display: flex;
-  background-color: var(--third-background-color);
-  margin-bottom: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 102.34px;
-  padding-right: 102.34px;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
   border-radius: 4px;
+  margin-bottom: 30px;
 }
 .description-title {
   line-height: 1.36;
@@ -473,9 +473,4 @@ body {
 .test {
   display: flex;
   align-items: baseline;
-}
-.first-section {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 94px;
 }
