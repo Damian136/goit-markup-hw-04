@@ -450,6 +450,9 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-socialmedia-svg {
+  color: #ffffff;
+}
 .contact {
   font-size: 14px;
   list-style: none;
