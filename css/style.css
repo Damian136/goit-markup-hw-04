@@ -62,7 +62,7 @@ body {
   align-items: center;
   font-size: 14px;
   line-height: 24px;
-  fill: var(--contacts-header-color);
+  color: var(--contacts-header-color);
 }
 .contact-links {
   display: flex;
@@ -70,7 +70,7 @@ body {
   list-style: none;
   font-size: 14px;
   line-height: 24px;
-  fill: var(--contacts-header-color);
+  color: var(--contacts-header-color);
   padding-left: 345px;
   gap: 30px;
 }
