@@ -435,19 +435,18 @@ body {
   gap: 10px;
 }
 .footer-socialmedia-item {
-  width: 40px;
-  height: 40px;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
-  fill: var(--body-background-color);
+  fill: var(--color-icon);
 }
 .footer-socialmedia-item:focus,
-.footer-socialmedia-item:hover {
-  cursor: pointer;
+.footer-socialmedia-item:hover,
+.social-network-button-list:activ e {
   background-color: var(--accent-color);
+  fill: var(--body-background-color);
 }
 .contact {
   font-size: 14px;
