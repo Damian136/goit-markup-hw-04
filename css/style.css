@@ -380,6 +380,7 @@ body {
   letter-spacing: 0.03em;
 }
 .icon-header {
+  fill: #757575;
   margin-right: 10px;
   width: 16px;
   height: 16px;
