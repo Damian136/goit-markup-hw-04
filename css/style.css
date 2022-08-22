@@ -437,18 +437,17 @@ body {
 .footer-socialmedia-item {
   width: 40px;
   height: 40px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--body-background-color);
 }
 .footer-socialmedia-item:focus,
 .footer-socialmedia-item:hover {
   cursor: pointer;
   background-color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact {
   font-size: 14px;
