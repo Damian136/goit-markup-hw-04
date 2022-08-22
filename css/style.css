@@ -388,10 +388,6 @@ body {
 .icon-header:focus {
   fill: var(--accent-color);
 }
-.icon-list-svg {
-  width: 65px;
-  height: 70px;
-}
 .client-list {
   display: block;
   text-align: center;
@@ -437,6 +433,10 @@ body {
   display: flex;
   padding-top: 20px;
   gap: 10px;
+}
+.item-list-lorem-ipsum {
+  width: 65px;
+  height: 70px;
 }
 .footer-socialmedia-item {
   width: 40px;
