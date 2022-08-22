@@ -441,12 +441,13 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
   fill: var(--body-background-color);
 }
 .footer-socialmedia-item:focus,
 .footer-socialmedia-item:hover {
+  cursor: pointer;
   background-color: var(--accent-color);
-  fill: var(--body-background-color);
 }
 .contact {
   font-size: 14px;
