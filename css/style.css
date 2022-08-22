@@ -388,6 +388,10 @@ body {
 .icon-header:focus {
   fill: var(--accent-color);
 }
+.icon-list-svg {
+  width: 65px;
+  height: 70px;
+}
 .client-list {
   display: block;
   text-align: center;
