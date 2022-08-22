@@ -441,7 +441,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff;
 }
 .footer-socialmedia-item:focus,
 .footer-socialmedia-item:hover {
@@ -449,9 +449,6 @@ body {
   background-color: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-socialmedia-svg {
-  color: #ffffff;
 }
 .contact {
   font-size: 14px;
