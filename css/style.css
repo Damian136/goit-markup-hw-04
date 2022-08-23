@@ -11,6 +11,7 @@
   --body-background-color: #ffffff;
   --main-text-color: #212121;
   --color-icon: #afb1b8;
+  --grey-line-color: #eeeeee;
 }
 .img {
   display: block;
@@ -33,7 +34,10 @@ body {
   padding-bottom: 24px;
 }
 .page {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #ececec;
+}
+.portfolio-page {
+  border-bottom: 1px solid #ececec;
 }
 .header-nav {
   font-family: "Raleway";
@@ -54,7 +58,7 @@ body {
   font-size: 16px;
   font-weight: 500;
 }
-.contact-links li :hover {
+.contact-links li a:hover svg {
   fill: var(--accent-color);
 }
 .contact-links a {
@@ -333,8 +337,6 @@ body {
 .photo-description {
   padding: 20px 24px;
   border-bottom: 1px solid var(--grey-line-color);
-  border-left: 1px solid var(--grey-line-color);
-  border-right: 1px solid var(--grey-line-color);
 }
 .product {
   width: 370px;
@@ -380,7 +382,6 @@ body {
   letter-spacing: 0.03em;
 }
 .icon-header {
-  fill: #757575;
   margin-right: 10px;
   width: 16px;
   height: 16px;
