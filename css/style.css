@@ -495,3 +495,6 @@ body {
   display: flex;
   align-items: baseline;
 }
+.product img {
+  display: block;
+}
